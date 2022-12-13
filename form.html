@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <form action="thanks.html" method="post">
+    <fieldset>
+        <legend>Your Details</legend>
+        <input type="text" name="name" placeholder="Enter Your Name"/>
+        <input type="email" name="Email" placeholder="Enter Your Email"/>
+    </fieldset>
+    <br/>
+    <br/>
+    <fieldset>
+        <legend>Your Review</legend>
+        <label>How did you here about us?</label>
+        <select name="source">
+            <option name="google">Google</option>
+            <option name="bing">Bing</option>
+            <option name="instagram">Instagram</option>
+            <option name="facebook">Facebook</option>
+        </select>
+        <br/>
+        <label>Would You Visit Again?</label>
+        <br/>
+        <input type="radio" name="question"value="Yes"/>Yes
+        <input type="radio" name="question"value="No"/>No
+        <input type="radio" name="question"value="maybe"/>Maybe
+        <br/>
+        <br/>
+        <label>Suggestions</label><br/>
+        <textarea rows="5" cols="30" placeholder="Comments..."></textarea>
+        <br/>
+        <label>Sign me for email updates:</label>
+        <input type="checkbox" name="ques" value="yes"/>Yes
+        <br/>
+        <input type="submit" value="Submit Suggestions"/>
+    </fieldset>
+</form>
+</body>
+</html>
